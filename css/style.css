@@ -1,0 +1,802 @@
+/* general_style */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;800&family=Poppins&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6, p, .btn .btn-1 .btn-2{ 
+    font-family: 'Montserrat', sans-serif;
+}
+/* general_style */
+
+/* navbar */
+.navbar{
+    color: #343434 !important;
+    }
+    
+    
+    .navbar .nav-link::after{
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        background-color: #343434;
+        bottom: 0;
+        left: 0;
+        transition: all 0.5s;
+    }
+    
+    .navbar .nav-link.active::after{
+        width: 100% ;
+    }
+    
+    .navbar .nav-item{
+        font-size: 14px;
+        position: relative;
+        padding-inline: 20px;
+        padding: 0;
+    }
+    
+    .navbar .navbar-expand-lg .navbar-nav .nav-link{
+        position: relative;
+        color: #111;
+    }
+
+/* navbar */
+
+
+
+/* home */
+.home{
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.home h1::after{
+    content: "|";
+    animation: home 7s infinite;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+
+@keyframes home {
+    0% {
+        content: "|";
+    }
+
+    1.37% {
+        content: "L|";
+    }
+
+    2.74% {
+        content: "La|";
+    }
+
+    4.11% {
+        content: "Lar|";
+    }
+
+    5.48% {
+        content: "Larr|";
+    }
+
+    6.85% {
+        content: "Larry|";
+    }
+
+    8.22% {
+        content: "Larry |";
+    }
+
+    9.59% {
+        content: "Larry D|";
+    }
+
+    10.96% {
+        content: "Larry Da|";
+    }
+
+    12.33% {
+        content: "Larry Dan|";
+    }
+
+    13.7% {
+        content: "Larry Dani|";
+    }
+
+    15.07% {
+        content: "Larry Danie|";
+    }
+
+    16.44% {
+        content: "Larry Daniel|";
+    }
+
+    17.81% {
+        content: "Larry Daniels|";
+    }
+
+    19.18% {
+        content: "Larry Daniels|";
+    }
+
+    20.55% {
+        content: "Larry Daniels|";
+    }
+
+    21.92% {
+        content: "Larry Daniels|";
+    }
+
+    23.29% {
+        content: "Larry Daniels|";
+    }
+
+    24.66% {
+        content: "Larry Daniel|";
+    }
+
+    26.03% {
+        content: "Larry Danie|";
+    }
+
+    27.4% {
+        content: "Larry Dani|";
+    }
+
+    28.77% {
+        content: "Larry Dan|";
+    }
+
+    30.14% {
+        content: "Larry Da|";
+    }
+
+    31.51% {
+        content: "Larry D|";
+    }
+
+    32.88% {
+        content: "Larry |";
+    }
+
+    34.25% {
+        content: "Larry|";
+    }
+
+    35.62% {
+        content: "Larr|";
+    }
+
+    37.0% {
+        content: "Lar|";
+    }
+
+    38.37% {
+        content: "La|";
+    }
+
+    39.74% {
+        content: "L|";
+    }
+
+    41.11% {
+        content: "|";
+    }
+
+    42.48% {
+        content: "D|";
+    }
+
+    43.85% {
+        content: "De|";
+    }
+
+    45.22% {
+        content: "Dev|";
+    }
+
+    46.59% {
+        content: "Deve|";
+    }
+
+    47.96% {
+        content: "Devel|";
+    }
+
+    49.33% {
+        content: "Develo|";
+    }
+
+    50.7% {
+        content: "Develop|";
+    }
+
+    52.07% {
+        content: "Develope|";
+    }
+
+    53.44% {
+        content: "Developer|";
+    }
+
+    54.81% {
+        content: "Developer|";
+    }
+
+    56.18% {
+        content: "Developer|";
+    }
+
+    57.55% {
+        content: "Developer|";
+    }
+
+    58.92% {
+        content: "Developer|";
+    }
+
+    60.29% {
+        content: "Develope|";
+    }
+
+    61.66% {
+        content: "Develop|";
+    }
+
+    63.03% {
+        content: "Develo|";
+    }
+
+    64.4% {
+        content: "Devel|";
+    }
+
+    65.77% {
+        content: "Deve|";
+    }
+
+    67.14% {
+        content: "Dev|";
+    }
+
+    68.51% {
+        content: "De|";
+    }
+
+    69.88% {
+        content: "D|";
+    }
+
+    71.25% {
+        content: "|";
+    }
+
+    72.62% {
+        content: "D|";
+    }
+
+    73.99% {
+        content: "De|";
+    }
+
+    75.36% {
+        content: "Des|";
+    }
+
+    76.73% {
+        content: "Desi|";
+    }
+
+    78.1% {
+        content: "Desig|";
+    }
+
+    79.47% {
+        content: "Design|";
+    }
+
+    80.84% {
+        content: "Designe|";
+    }
+
+    82.21% {
+        content: "Designer|";
+    }
+
+    83.58% {
+        content: "Designer|";
+    }
+
+    84.95% {
+        content: "Designer|";
+    }
+
+    86.32% {
+        content: "Designer|";
+    }
+
+    87.69% {
+        content: "Designer|";
+    }
+
+    89.06% {
+        content: "Designe|";
+    }
+
+    90.43% {
+        content: "Design|";
+    }
+
+    91.8% {
+        content: "Desig|";
+    }
+
+    93.17% {
+        content: "Desi|";
+    }
+
+    94.54% {
+        content: "Des|";
+    }
+
+    95.91% {
+        content: "De|";
+    }
+
+    97.28% {
+        content: "D|";
+    }
+
+    98.65% {
+        content: "|";
+    }
+
+    100% {
+        content: "|"; 
+    }
+}
+
+
+    
+
+.home .layer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home h5{
+    font-size: 50px;
+
+}
+.home h1{
+    font-size: 60px;
+}
+
+.home .icon{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+/* home */
+
+/* about */
+.about{
+    padding: 100px 0 100px 0;
+}
+.about img{
+    width: 100%; 
+}
+
+
+
+.about h3{
+    color: #343434;
+}
+
+.about h4{
+    color: #999;
+}
+
+.about p{
+    color: #748182;
+    font-size: 15px;
+
+}
+
+.progress{
+    height: 22px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+.progress-bar{
+    background-color: #1c1c1c;
+}
+
+.about .btn-1{
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 5px;
+    border: solid 0.3px white;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    transition: all 0.5s;
+    
+}
+
+.about .btn-2{
+    background-color: white;
+    color: #1c1c1c;
+    border-radius: 5px;
+    border: solid 0.3px #1c1c1c ;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    transition: all 0.5s;
+}
+
+.about .btn-1:hover{
+    background-color: white;
+    color: #1c1c1c;
+    border: solid 0.3px #1c1c1c ;
+    width: 150px;
+    height: 40px;
+}
+
+.about .btn-2:hover{
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 5px;
+    border: solid 0.3px white;
+    width: 150px;
+    height: 40px;
+}
+
+.about .progress p{
+    color: white;
+    font-size: 15px;
+}
+/* about */
+
+/* services */
+.services{
+    background-color: #f7f7f7;
+    padding: 100px 0 100px 0;
+}
+
+.services h2{
+    background-image: url(../images/dots.png);
+    width: 200px;
+    margin: auto;
+}
+
+.services .card{
+    padding: 50px;
+}
+.services .services_head{
+    padding-bottom: 80px;
+}
+
+
+.services p{
+    color: #748182;
+    font-size: 15px; 
+}
+
+.services .icon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+
+.card:hover .icon{
+    background-color: #1c1c1c;
+    color: white;
+
+}
+/* services */
+
+/* portfolio */
+.portfolio {
+    padding: 100px 0 100px 0;
+}
+
+.portfolio h2 {
+    background-image: url(../images/dots.png);
+    width: 200px;
+    margin: auto;
+}
+
+.portfolio .layer {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.portfolio .card {
+    overflow: hidden;
+}
+
+.portfolio .card:hover .layer {
+    top: 0;
+    transform: scale(0.97, 0.97);
+    opacity: 2;
+}
+
+.portfolio .text {
+    transition: all 0.5s;
+}
+
+.portfolio .icon {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .icon:hover {
+    background-color: white;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+
+.nav-pills .nav-link {
+    color: #1c1c1c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.nav-pills .nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: #1c1c1c;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    color: #1c1c1c;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active::after,
+.nav-pills .nav-link:hover::after {
+    width: 100%;
+}
+
+/* portfolio */
+
+
+
+
+/* testimonial */
+.testimonial{
+    background-color: #f7f7f7;
+    padding: 100px 0 100px 0;
+}
+
+.testimonial h2{
+    background-image: url(../images/dots.png);
+    margin: auto;
+    width: 300px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #869791;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.testimonial p{
+    font-size: 15px;
+    color: #748182;
+}
+.testimonial span{
+    font-size: 12px;
+    color: #748182;
+}
+/* testimonial */
+
+/* section */
+
+.section{
+    padding: 100px 0 100px 0;
+
+    
+}
+.section span{
+    font-size: 14px;
+    color: #748182;
+}
+/* section */
+
+/* team */
+.team{
+    background-color: #f7f7f7;
+    padding: 100px 0 100px 0;
+}
+
+.team h2{
+    background-image: url(../images/dots.png);
+    margin: auto;
+    width: 300px;
+}
+
+.team .image{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.team img{
+    width: 100%;
+    transition: all 0.4s ease 0s;
+}
+
+.test{
+    overflow: hidden;
+}
+
+.team .card{
+    overflow: hidden;
+}
+
+.team .content{
+    overflow: hidden !important;
+}
+
+.team .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .icon:hover{
+    background-color: white;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+
+.team .layer{
+    width: 100%;
+    height: 80.5%;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.team .card:hover .layer{
+    opacity: 2;
+    transform: rotateY(360deg) scale(0.97, 0.97) ;
+}
+
+.team .image:hover img{
+    transform: scale(1.2);
+}
+
+.team .row{
+    padding-top: 100px;
+}
+/* team */
+
+/* contact */
+
+.contact{
+    padding: 100px 0 100px 0;
+}
+
+.contact h2{
+    background-image: url(../images/dots.png);
+    margin: auto;
+    width: 300px;
+}
+
+.contact .icon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+
+.contact span{
+    color: #748182;
+}
+
+.contact .content{
+    padding-top: 80px;
+}
+
+.form-control{
+    background-color: #f4f4f4 !important;
+   
+}
+
+.form .form-control{
+    height: 200px;
+}
+
+.btn {
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 5px;
+    border: solid 0.3px white !important;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #1c1c1c;
+    border: solid 0.3px #1c1c1c !important ;
+    width: 150px;
+    height: 40px;
+}
+/* contact */
+
+/* footer */
+.footer{
+    background-color: #1c1c1c;
+    padding: 30px 0 20px 0;
+    
+    
+}
+
+.footer p{
+    color: #748182;
+    font-size: 13px;
+}
+/* footer */
+
+
+
+
+
